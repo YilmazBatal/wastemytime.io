@@ -8,7 +8,7 @@ export function Header() {
       </div>
       <div className="my-5">
         <h1 className={`${sour_gummy.className} text-center text-5xl`}>
-          WASTEMYTIME.COM
+          WASTEMYTIME.IO
         </h1>
         <p className="text-center text-2xl my-3">Hope you have a great day!</p>
       </div>

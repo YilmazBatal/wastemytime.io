@@ -7,8 +7,8 @@ const CanvasDots: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const dotsRef = useRef<{ x: number, y: number, vx: number, vy: number }[]>([]);
   let dotCount = 300;
-  const dotRadius = 2;
-  const escapeRadius = 50;
+  const dotRadius = 1.5;
+  const escapeRadius = 100;
   const dampingFactor = 0.978; // Damping factor to reduce velocity
   let animationFrameId: number;
 

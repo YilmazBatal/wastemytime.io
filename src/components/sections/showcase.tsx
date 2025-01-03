@@ -12,7 +12,7 @@ export function Showcase() {
 
   return (
     <div className="grid grid-cols-12 gap-4 items-center justify-center my-5 mx-5">
-      <div className="col-span-12 sm:col-span-6  md:col-span-4 flex justify-center items-center">
+      <div className="col-span-12 sm:col-span-6  md:col-span-6 lg:col-span-4 flex justify-center items-center">
         <Link href="/npc-quiz">
           <Image
             src="/covers/npc.jpg"
@@ -24,10 +24,10 @@ export function Showcase() {
           />
         </Link>
       </div>
-      <div className="col-span-12 sm:col-span-6  md:col-span-4 flex justify-center items-center">
-        <Link href="/aboutus.tsx">
+      <div className="col-span-12 sm:col-span-6  md:col-span-6 lg:col-span-4 flex justify-center items-center">
+        <Link href="/npc-quiz">
           <Image
-            src="/covers/sundie.png"
+            src="/covers/npc.jpg"
             layout="responsive"
             alt="NPC Quiz"
             width={1}
@@ -36,14 +36,41 @@ export function Showcase() {
           />
         </Link>
       </div>
-      <div className="col-span-12 sm:col-span-6  md:col-span-4 flex justify-center items-center">
-        <Skeleton className="zoom showcase-image" />
+      <div className="col-span-12 sm:col-span-6  md:col-span-6 lg:col-span-4 flex justify-center items-center">
+        <Link href="/npc-quiz">
+          <Image
+            src="/covers/npc.jpg"
+            layout="responsive"
+            alt="NPC Quiz"
+            width={1}
+            height={1}
+            className="zoom showcase-image link"
+          />
+        </Link>
       </div>
-      <div className="col-span-12 sm:col-span-6  md:col-span-4 flex justify-center items-center">
-        <Skeleton className="zoom showcase-image" />
+      <div className="col-span-12 sm:col-span-6  md:col-span-6 lg:col-span-4 flex justify-center items-center">
+        <Link href="/npc-quiz">
+          <Image
+            src="/covers/npc.jpg"
+            layout="responsive"
+            alt="NPC Quiz"
+            width={1}
+            height={1}
+            className="zoom showcase-image link"
+          />
+        </Link>
       </div>
-      <div className="col-span-12 sm:col-span-6  md:col-span-4 flex justify-center items-center">
-        <Skeleton className="zoom showcase-image" />
+      <div className="col-span-12 sm:col-span-6  md:col-span-6 lg:col-span-4 flex justify-center items-center">
+        <Link href="/npc-quiz">
+          <Image
+            src="/covers/npc.jpg"
+            layout="responsive"
+            alt="NPC Quiz"
+            width={1}
+            height={1}
+            className="zoom showcase-image link"
+          />
+        </Link>
       </div>
     </div>
   );

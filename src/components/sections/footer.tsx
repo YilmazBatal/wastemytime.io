@@ -29,7 +29,7 @@ export function Footer() {
       </div>
       <p className={`m-3 text-center text-zinc-600`}>
         <span className={`${sour_gummy.className} text-zinc-600`}>
-          WASTEMYTIME.COM
+          WASTEMYTIME.IO
         </span>
         {" "}- All rights reserved - 2025
       </p>

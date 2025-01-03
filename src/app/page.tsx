@@ -8,9 +8,9 @@ export default function Home() {
     <div>
       <main>
         {/* CANVAS */}
-        {/* <section>
+        <section>
           <CanvasDots />
-        </section> */}
+        </section>
         {/* HEADER */}
         <section>
           <Header />
