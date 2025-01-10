@@ -25,9 +25,9 @@ export function Showcase() {
         </Link>
       </div>
       <div className="col-span-12 sm:col-span-6  md:col-span-6 lg:col-span-4 flex justify-center items-center">
-        <Link href="/npc-quiz">
+        <Link href="/tacos">
           <Image
-            src="/covers/npc.jpg"
+            src="/covers/tacos.png"
             layout="responsive"
             alt="NPC Quiz"
             width={1}
